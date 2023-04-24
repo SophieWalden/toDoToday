@@ -1,0 +1,96 @@
+
+
+#TaskTitle{
+    color: var(--text-color);
+}
+
+#TaskTab{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#TaskContainer{
+    background: var(--color-secondary);
+    width: 85%;
+    height: 80%;
+    margin-bottom: 50px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    border-radius: 20px;
+}
+
+#taskContainerNavBarTitle{
+    color: var(--title-text-color);
+}
+
+
+#taskContainerNavBar{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskContainerContent{
+    height: 85%;
+    overflow-y: scroll;
+}
+
+#taskContainerNavBarTitle{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+#taskContainerSortButtons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+
+#taskContainerSortButtons button{
+    background: transparent;
+    border: solid 2px var(--title-text-color);
+    color: var(--title-text-color);
+    border-radius: 15px;
+    font-size: 1vw;
+    width: 5vw;
+}
+
+#taskContainerTable th,
+#taskContainerTable td {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+
+
+#taskContainerTable{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: scroll;
+}
+
+#taskContainerTable th{
+    height: 10vh;
+}
+
+#taskContainerTable td{
+    height: 10vh;
+}
+
+#taskContainerContentSplitter{
+    width: 100%;
+    border: solid 2px var(--color-secondary);
+}

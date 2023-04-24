@@ -1,0 +1,173 @@
+#CalendarTitle{
+    color: var(--title-text-color);
+    font-size: 2vw;
+
+}
+
+
+#CalendarTab{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#CalendarContainer{
+    background: var(--color-secondary);
+    
+    width: 95%;
+    height: 90%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+
+
+ 
+}
+
+
+#taskContainerTitle{
+    color: var(--text-color);
+}
+
+
+
+#CalendarContent{
+    height: 100%;
+       
+}
+
+#TimeContent{
+    height: 100%;
+    
+}
+
+#taskContainerSortButtons{
+    position: relative;
+    display: inline-block;
+   
+    width: 25vw;
+    
+}
+
+label {
+   
+    font-size: 2vw;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    
+    color: var(--text-color);
+    background: var(--title-text-color);
+    font-size: 0.9rem;
+    padding: 2px;
+    border-radius: 21px;
+    position: absolute;
+    top:150px;
+    right: 50px;
+}
+
+#CalContainerSortButtons button{
+    background: rgb(255, 255, 255,0.7);
+    display: block;
+    margin-left: auto;
+  
+    font-weight: bold;
+    color: var(--text-color);
+    border-radius: 15px;
+    font-size: 1.3vw;
+    width: 7vw;
+    
+    
+}
+
+
+
+#CalendarTable th,
+#CalendarTable td{
+    
+    font-size: 1.3vw;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+    
+
+}
+
+
+
+#CalendarTable{
+    width: 100%;
+    
+}
+
+
+
+
+#CalendarTable th{
+    
+    height: 7vh;
+    
+}
+
+#CalendarTable td{
+    
+    font-size: 1vw;
+    height: 7vh;
+}
+
+
+
+#month, 
+#MonthCalendar{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
+}
+
+#MonthCalendar th{
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 1.5vw;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+#MonthCalendar td{
+    font-size: 1.3vw;
+    text-align: right;
+    color: var(--text-color);
+    font-weight: 800;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+   
+}
+
+
+#MonthCalendarTable{
+    height: 80%;
+    width: 100%;  
+    
+
+}
+
+#dtest{
+    height: 23vh;
+    overflow-y: scroll;
+}
+
+#monthContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+    margin-top: -90px;
+}
+

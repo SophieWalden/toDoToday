@@ -1,0 +1,122 @@
+
+.loginFormContainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#loginForm{
+
+    width: 40vw;
+    height: 90vh;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 34px;
+    color: var(--text-color);
+  
+}
+
+#signupFormInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+    align-items: center;
+}
+
+#signupFormInputs label{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 10vh;
+
+}
+
+#signupFormInputs input{
+    border-radius: 25px;
+    border: solid 3px var(--text-color);
+    height: 10vh;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+#loginForm button{
+    width: 75%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 50px;
+    
+    height: 6vh;
+    background: var(--text-color);
+    border-radius: 25px;
+    color: var(--title-text-color);
+    
+    font-size: 3vh;
+}
+
+#getStartedText{
+    width: 75%;
+    height: 30px;
+    padding-left: 2vw;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 30px;
+
+
+
+    color: #093156;
+    
+}
+
+#createAccountText{
+    width: 75%;
+    height: 30px;
+    padding-left: 2vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+
+
+    color: rgba(9, 49, 86, 0.6);
+}
+
+#signupSheetLoginText{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 15vw;
+    font-size: 1.25vw;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    width: 406px;
+    height: 84px;
+
+    font-size: 50px;
+    line-height: 30px;
+    
+
+
+    background: rgba(150, 171, 172, 0.7); 
+    border-radius: 34px;
+
+
+}

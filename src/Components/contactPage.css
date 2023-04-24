@@ -1,0 +1,181 @@
+#ContactsTitle{
+    color: var(--title-text-color);
+}
+
+#ContactTab{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#ContactContainer{
+    background: var(--color-secondary);
+    width: 85%;
+    height: 80%;
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+}
+
+#searchContacts{
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+#searchContactsInput{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#searchContactsInput::placeholder{
+    color: #ccc;
+}
+
+#searchContactsInput:focus::placeholder {
+    color: #ccc;
+}
+
+.addContact{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.addContact:focus{
+    animation: button-click 1s 1;
+}
+
+
+@keyframes button-click {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#plusSymbol{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+
+.contact{
+    background-color: #bdcbd2;
+    border-radius: 20px;
+
+
+    width: 90%;
+    height: 10vh;
+    font-size: 50px;
+
+    margin-bottom: 20px;
+    padding-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact:focus, .contact:hover {
+    animation: scale 5s;
+}
+
+@keyframes scale {
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.icons{
+    float: right;
+}
+
+.names{
+    float: left;
+}
+#ContactsTabTopContent{
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#ContactsTabBottomContent{
+    width: 100%;
+    height: 60vh;
+}
+
+#contactList{
+    width: auto;
+    height: 90%;
+    list-style: none;
+
+    align-items: center;
+    margin-left: 20px;
+
+    overflow-y: auto;
+
+}
+
+#ContactsTabTopContentLeftSide{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+#infoIcon{
+    max-width: 40px;
+    height: auto;
+    
+    margin-left: 650px;
+
+}
+
+#shareIcon{
+    max-width: 55px;
+    height: auto;
+
+    margin-left: 20px;
+}
+
+#garbageCan{
+    max-width: 40px;
+    height: auto;
+
+    margin-left: 20px;
+}
+

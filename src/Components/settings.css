@@ -1,0 +1,129 @@
+
+#SettingsTitle{
+    color: var(--text-color);
+}
+
+#SettingsContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#SettingsTab{
+    background: var(--color-secondary);
+    width: 85%;
+    height: 80%;
+    margin-bottom: 50px;
+
+
+    display: flex;
+    justify-content: space-between;
+
+
+    border-radius: 20px;
+}
+
+#SettingsContainerNavbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-right: solid 3px var(--color-secondary);
+    font-size: 1.5vw;
+
+    width: 20vw;
+}
+
+#SettingsContainerLeftContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+#SettingsContainerEmptySpace{
+    height: 10vh;
+    width: 100%;
+    border-bottom: solid 3px var(--color-secondary);
+}
+
+#SettingsContainerActualSettings{
+    height: 100%;
+    width: 100%;
+}
+
+
+#settingsContainerTabSelection{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 30%;
+    font-weight: bold;
+}
+
+#SettingsContainerHighlightedTab{
+    color: var(--text-color);
+}
+
+
+#AccountSettings{
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-weight: bold;
+    display: grid;
+}
+#nameChangeSettings{
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+}
+#nameChangeBarHolder{
+    width: 12vw;
+    height: 4vh;
+    margin-left: 95px;
+    text-align: left;
+}
+#emailChangeSettings{
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+}
+#emailChangeBarHolder{
+    width: 12vw;
+    height: 4vh;
+    margin-left: 143px;
+    text-align: left;
+}
+#passwordChangeSettings{
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+}
+#passwordChangeBarHolder{
+    width: 12vw;
+    height: 4vh;
+    margin-left: 100px;
+    text-align: left;
+}
+
+#settingsThemeSetter{
+    margin-left: 2vw;
+    margin-top: 3vh;
+    font-weight: bold;
+    display: flex;
+}
+
+#SettingsThemeName{
+    width: 20vw;
+}
+
+.settingsTabThemeChangingButton{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0.5vw;
+
+}

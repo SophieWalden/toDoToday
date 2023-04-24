@@ -1,0 +1,171 @@
+
+
+#DashboardTitle{
+    color: var(--text-color);
+}
+
+#DashboardTab{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#DashboardContainer{
+    background: var(--color-secondary);
+    width: 85%;
+    height: 80%;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+}
+
+
+#DashboardWelcomeText{
+    height: 10vh;
+    width: 100%;
+    font-size: 4vw;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    font-weight: bold;
+}
+
+#DashboardMiddleContent{
+    height: 60vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#DashboardBottomContent{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DashboardMinyTaskView, 
+#DashboardMinyCalendar{
+    width: 40%;
+    height: 90%;
+
+    background: var(--color-secondary-dark);
+    border-radius: 10px;
+}
+
+#DashboardRecentlySharedWith{
+    width: 60%;
+    height: 75%;
+
+    background: var(--color-secondary-dark);
+    border-radius: 10px;
+    padding-top: 1vw;
+}
+
+#DashboardRecentlySharedWith h4,
+#DashboardMinyTaskView h4,
+#DashboardMinyCalendar h4{
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+#DashboardMinyTaskViewSortOptions{
+    font-size: 1.5vw;
+    margin-left: 5%;
+    height: 5vh;
+
+    margin-top: 0px;
+    padding-top: 0px;
+    border-bottom: solid 1px var(--title-text-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#DashboardMinyTaskViewSortOptions button{
+    background: transparent;
+    border: solid 2px var(--title-text-color);
+    color: var(--title-text-color);
+    border-radius: 15px;
+    font-size: 1vw;
+    width: 5vw;
+    margin-top: -1vh;
+}
+
+#DashboardMinyTaskViewSortOptions p{
+    margin-top: 1vh;
+}
+#DashboardMinyTaskViewWithoutTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+#dashboardContainerTable td {
+  width: 100%;
+  border-top: 2px solid var(--title-text-color);
+  border-bottom: 2px solid var(--title-text-color);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+#dashboardContainerTable{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: scroll;
+    font-size: 1.5vw;
+}
+
+#dashboardContainerTable td{
+    height: 5vh;
+}
+
+#dashboardMinyTaskViewTableContainer{
+    height: 23vh;
+    overflow-y: scroll;
+}
+
+#DashboardRecentlySharedWith h5{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+}
+
+#DashboardMinyCalendar th{
+    font-size: 1.5vw;
+}
+
+#DashboardMinyCalendar td{
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+#DashboardMinyCalendarTable{
+    height: 70%;
+    width: 90%;   
+
+}
+
+#DashboardMinyCalendarContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    margin-top: -20px;
+}

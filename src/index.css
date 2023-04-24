@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --color-primary: #73807D; 
+  --color-secondary: #7b9dac99;
+  --color-secondary-dark: #6C91A0;
+  --color-background: #beccc9b3;
+  --color-background-secondary: #2B4855;
+  --text-color: #2B4855;
+  --title-text-color: white;
+}
+
+.blue{
+  --color-primary: #73807D; 
+  --color-secondary: #7b9dac99;
+  --color-secondary-dark: #6C91A0;
+  --color-background: #beccc9b3;
+  --color-background-secondary: #2B4855;
+  --text-color: #2B4855;
+  --title-text-color: white;
+}
+
+.red{
+  --color-primary: #845F59; 
+  --color-secondary: #845f59af;
+  --color-secondary-dark: #6B423B;
+  --color-background: #C9A9A4;
+  --color-background-secondary: #6B423B;
+  --text-color: #412723;
+  --title-text-color: #FFFFFF;
+}
+
+.pink{
+  --color-primary: #A3675E; 
+  --color-secondary: #a3675ec2;
+  --color-secondary-dark: #C69991;
+  --color-background: #F1BDB6;
+  --color-background-secondary: #A3675E;
+  --text-color: black;
+  --title-text-color: white;
+}
+
+.white{
+  --color-primary: #D4CFC0; 
+  --color-secondary: #d4cfc0b7;
+  --color-secondary-dark: #FBFBFB;
+  --color-background: #F6F6F6;
+  --color-background-secondary: #cfcdc8;
+  --text-color: black;
+  --title-text-color: #4B4840;
+}
+
+.darkBlue{
+  --color-primary: #FFFFFF; 
+  --color-secondary: #2b5264;
+  --color-secondary-dark: #AAB9C1;
+  --color-background: #7D96A1;
+  --color-background-secondary: #AAB9C1;
+  --text-color: black;
+  --title-text-color: #FFFFFF;
+}
+
+.green{
+  --color-primary: #AED793; 
+  --color-secondary: #AED793;
+  --color-secondary-dark: #7FA167;
+  --color-background: #C6DBB6;
+  --color-background-secondary: #7FA167;
+  --text-color: black;
+  --title-text-color: #000000;
+}

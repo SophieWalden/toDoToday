@@ -1,0 +1,140 @@
+
+
+#TaskCreationFormTitle{
+    color: var(--text-color);
+}
+
+
+#TaskCreationFormTab{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: 80%; 
+    align-items: center;
+    justify-content: center;
+    right: 5vw;
+}
+
+#TaskCreationFormContainer{
+    background: var(--color-background-secondary);
+    width: 85%;
+    height: 80%;
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+}
+
+
+
+#TaskCreationForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 90%;
+}
+
+#TaskCreationForm div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#TaskCreationFormDescription{
+    width: 59vw;
+    height: 30vh;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+#taskCreationDescriptionText{
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#TaskCreationFormNameInput{ 
+    width: 51vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 9vw;
+    padding-top: 5px;
+}
+
+#taskCreationNameText{
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.5vw;
+}
+
+#TaskCreationFormPriority{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    padding-left: 6vw;
+}
+
+#taskCreationPriorityText{
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.3vw;
+}
+
+#TaskCreationFormDate{
+    width: 18vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 4.5vw;
+    padding-top: 5px;
+}
+
+#taskCreationDateText{
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.5vw;
+}
+
+#TaskCreationFormShareButton{
+    width: 10vw;
+    height: 4vw;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+
+
+#TaskCreationSubmissionButton{
+    width: 10vw;
+    height: 4vw;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 65px;
+}
+
+#TaskCreationDeleteButton{
+    width: 10vw;
+    height: 4vw;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 65px;
+
+}
