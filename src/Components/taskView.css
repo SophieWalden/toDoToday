@@ -94,3 +94,7 @@
     width: 100%;
     border: solid 2px var(--color-secondary);
 }
+
+#TaskCreationForm{
+    z-index: 10000;
+}

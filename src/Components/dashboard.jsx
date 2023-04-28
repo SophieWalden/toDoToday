@@ -20,12 +20,13 @@ function Dashboard(props){
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                mode: "cors"
+                mode: "cors",
+                crossDomain: true
             }
         ).then(res => {
             return res.json()
         }).then(json => {
-            setTasks(json);
+            setTasks(json["Tasks"]);
         });
     }
 

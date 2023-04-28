@@ -4,7 +4,8 @@ from flask_cors import CORS, cross_origin
 import pymongo
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, support_credentials=True)
+app.config['CORS_HEADERS'] = 'application/json'
 
 client = pymongo.MongoClient("mongodb+srv://testing_db:ToDoToday@todotoday.gqbomyx.mongodb.net/?retryWrites=true&w=majority")
 
@@ -99,4 +100,4 @@ def getUserTasks(email):
     taskCollection = client['user-data']["tasks"]
     task = next(taskCollection.find({"email": email}), None)
 
-    return [] if task == None else task["tasks"]
+    return {"Tasks": []} if task == None else {"Tasks": task["tasks"]}

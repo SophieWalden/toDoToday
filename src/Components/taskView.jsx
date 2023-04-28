@@ -59,7 +59,7 @@ function TaskView(props){
         ).then(res => {
             return res.json()
         }).then(json => {
-            setTasks(json);
+            setTasks(json["Tasks"]);
         });
     }
 
@@ -85,8 +85,6 @@ function TaskView(props){
     return (
         <div id="TaskTab">
             <div id="TaskContainer">
-
-                {showCreateForm == true && <TaskCreationForm taskInfo={currentEditingTask} FormData={handleNewReminder} />}
 
                 <div id="taskContainerNavBar">
                     <div id="taskContainerNavBarTitle">
@@ -143,6 +141,9 @@ function TaskView(props){
                     
 
                 </div>
+
+                {showCreateForm == true && <TaskCreationForm id="TaskCreationForm" taskInfo={currentEditingTask} FormData={handleNewReminder} />}
+
 
             </div>
         </div>

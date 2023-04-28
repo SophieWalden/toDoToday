@@ -67,6 +67,7 @@
     font-size: 25px;
     padding-left: 9vw;
     padding-top: 5px;
+    align-items: left;
 }
 
 #taskCreationNameText{

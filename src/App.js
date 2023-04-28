@@ -42,7 +42,7 @@ function App(props) {
   }
 
   return (
-    <div className="App" class = {themes[themeIndex]} >
+    <div className={themes[themeIndex]} >
       <header className="App-header">
         {loggedIn ? <TabManager  currTheme = {themesDispName[themeIndex]} onClickInc = {onClickInc} onClickDec = {onClickDec} /> : <LoginForm checkLogin={loginSuccesful} />}
 

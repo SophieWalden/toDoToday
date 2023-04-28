@@ -56,7 +56,7 @@
     height: 30px;
     border: none;
     border-radius: 20px;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
 
     margin-bottom: 5px;
     margin-right: 10px;
@@ -87,7 +87,7 @@
 }
 
 .contact{
-    background-color: #bdcbd2;
+    background-color: var(--color-secondary);
     border-radius: 20px;
 
 
